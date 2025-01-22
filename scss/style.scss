@@ -23,6 +23,39 @@
     border-bottom: 16px solid $corVerde;
     overflow: hidden;
 
+    &.start{
+        .img-nuvem{
+            animation: move-nuvens 20s infinite linear;
+        }
+        .img-nuvem2{
+            animation: move-nuvens 20s infinite linear 8s;
+        }
+        .img-tubo{
+            animation: move-tubo 3s infinite linear;
+        }
+    
+        .img-bala{
+            animation: move-bala 3s infinite linear 2s;
+        }
+    
+        .img-moeda{
+            animation: move-modas 2.5s infinite linear 2s;
+        }
+        .img-moeda2{
+            animation: move-modas 2.5s infinite linear 4s;
+        }
+        .img-moeda3{
+            animation: move-modas 2.5s infinite linear 8s;
+        }
+    
+        .img-estrela{
+            animation: move-estrelas 3s infinite linear;
+        }
+        .img-estrela2{
+            animation: move-estrelas 3s infinite linear 2s;
+        }
+    }
+
     .header{
         width: 100%;
         display: flex;
@@ -80,12 +113,10 @@
         top:100px;
         right: -500px;
         width: 28%;
-        animation: move-nuvens 20s infinite linear;
     }
 
     .img-nuvem2{
         top: 200px;
-        animation: move-nuvens 20s infinite linear 8s;
 
     }
 
@@ -93,37 +124,32 @@
         position: absolute;
         bottom: 0;
         right: -80px;
-        animation: move-tubo 3s infinite linear;
     }
 
     .img-bala{
         position: absolute;
         bottom: 110px;
         right: -130px;
-        animation: move-bala 3s infinite linear 2s;
     }
 
     .img-moeda{
         position: absolute;
         bottom: 170px;
         right: -50px;
-        animation: move-modas 2.5s infinite linear 2s;
-    }
-    .img-moeda2{
-        animation: move-modas 2.5s infinite linear 4s;
-    }
-    .img-moeda3{
-        animation: move-modas 2.5s infinite linear 8s;
     }
 
     .img-estrela{
         position: absolute;
         top: 130px;
         right: -70px;
-        animation: move-estrelas 3s infinite linear;
     }
-    .img-estrela2{
-        animation: move-estrelas 3s infinite linear 2s;
+
+    .jump{
+        animation: pulo-mario 500ms ease-in-out;
+    }
+    
+    .fly{
+        animation: voo-mario 1.5s ease-in-out;
     }
 }
 
