@@ -1,3 +1,0 @@
-npm install -g sass //-g para instalr no global
-
-sass --watch caminho_do_arquivo.scss:caminho_do_arquivo.css // watch para ficar observando o sass ficar observando o arquivo .scss e passando para o css
