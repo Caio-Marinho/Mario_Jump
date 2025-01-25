@@ -91,3 +91,14 @@
         left: 0;
     }
 }
+
+@keyframes fade-up{
+    from{
+        transform: translate(0px -200px);
+        opacity: 0;
+    }
+    to{
+        transform: translate(0px, 0px);
+        opacity: 1;
+    }
+}
